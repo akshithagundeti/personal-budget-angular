@@ -3,34 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Budget</title>
-    <meta name="description" content="A free personal budger app">
-    <meta name="keywords" content="app free budget finance">
+    <!-- This is an SEO Change -->
+    <meta name="description" content="A free personal budget app to help you manage your finances effectively.">
+    <!-- This is an SEO Change -->
+    <meta name="keywords" content="personal budget, free budget app, finance management, budgeting tool">
+    <!-- This is an SEO Change -->
+    <meta name="author" content="Akshitha Gundeti">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
+    <title>Personal Budget - Manage Your Finances</title>
 </head>
 <body>
 
-<a href="#main" class="skip">Skip to content</a>
+<!-- This is an A11y Change -->
+<a href="#main" class="skip" aria-label="Skip to main content" tabindex="0">Skip to content</a>
 
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/login.html">Login</a></li>
-            <li><a href="https://google.com">Google</a></li>
-        </ul>
-    </nav>
+    <!-- This is a Semantic HTML Change -->
+    <header>
+        <nav>
+            <ul>
+                <!-- This is a Semantic HTML Change -->
+                <li><a href="/">Homepage</a></li>
+                <!-- This is an A11y Change -->
+                <li aria-haspopup="true"></li>
+                <!-- This is an A11y Change -->
+                <li role="menuitem"><a href="/about.html">About</a></li>
+                <!-- This is an A11y Change -->
+                <li role="menuitem"><a href="/login.html">Login</a></li>
+                <!-- This is an A11y Change -->
+                <li role="menuitem"><a href="https://google.com">Google</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="hero">
+    <!-- This is a Semantic HTML Change -->
+    <section class="hero">
         <h1>Personal Budget</h1>
         <h2>A personal-budget management app</h2>
-    </div>
+    </section>
 
     <main class="center" id="main">
 
         <div class="page-area">
 
+            <!-- This is a Semantic HTML Change -->
             <article>
                 <h1>Stay on track</h1>
                 <p>
@@ -57,14 +73,20 @@
             </article>
     
             <article>
-                <h1>Free</h1>
+                <!-- This is an SEO Change -->
+                <header>
+                    <h1> Free </h1>
+                </header>
                 <p>
                     This app is free!!! And you are the only one holding your data!
                 </p>
             </article>
     
             <article>
-                <h1>Stay on track</h1>
+                <!-- This is an SEO Change -->
+                <header>
+                    <h2> Stay on track </h2>
+                </header>
                 <p>
                     Do you know where you are spending your money? If you really stop to track it down,
                     you would get surprised! Proper budget management depends on real data... and this
@@ -91,7 +113,8 @@
             <article>
                 <h1>Chart</h1>
                 <p>
-                    <canvas id="myChart" width="400" height="400"></canvas>
+                    <!-- This is an A11y Change -->
+                    <canvas id="myChart" width="400" height="400" aria-label="Budget Chart" role="img"></canvas>
                 </p>
             </article>
 
@@ -99,9 +122,10 @@
 
     </main>
 
+    <!-- This is a Semantic HTML Change -->
     <footer class="bottom">
         <div class="center">
-            All rights reserved &copy; Fabio Nolasco
+            All rights reserved &copy; Akshitha Gundeti
         </div>
     </footer>
 
