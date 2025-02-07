@@ -19,6 +19,14 @@
         {
             "title": "Drinks",
             "budget": 12
+        },
+        {
+            "title": "Food",
+            "budget": 12
+        },
+        {
+            "title": "Games",
+            "budget": 2
         }
     ]
 }
